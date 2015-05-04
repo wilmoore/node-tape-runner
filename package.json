@@ -1,7 +1,7 @@
 {
   "name": "tape-runner",
   "description": "A tape runner API allowing you to create custom test runners.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
     "url": "https://github.com/wilmoore/node-tape-runner/issues"
