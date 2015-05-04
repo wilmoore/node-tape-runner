@@ -27,7 +27,7 @@ var fixtures = [
  * autorun files.
  */
 
-var autorunFiles = autorun().filter(string).map(path.basename)
+var autorunFiles = autorun().map(basename)
 
 /*!
  * tests.
@@ -53,12 +53,12 @@ function exists (file) {
 }
 
 /*!
- * Whether value is a string.
+ * Return file's basename.
  *
- * @param {String} str
- * @return {Boolean}
+ * @param {String} file
+ * @return {String}
  */
 
-function string (str) {
-  return String(str) === str
+function basename (file) {
+  return path.basename(file)
 }

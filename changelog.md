@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file (keepachange
 
 ## 0.2.1 - 2015-05-04
 ### Added
-- Filter out invalid files.
+- Wrap `path.basename` with a `basename` function that accepts just a file name so `ext` doesn't get passed via `Array.prototype.map`.
 
 ## 0.2.0 - 2015-05-04
 ### Added
