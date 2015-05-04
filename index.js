@@ -5,6 +5,7 @@
  */
 
 var apply = require('apply-or')
+var array = require('to-array.js')
 var glob = require('globby').sync
 var path = require('path')
 var root = require('package.root')
@@ -34,7 +35,7 @@ var patterns = [
  */
 
 function runner (params, files) {
-  var list = (files || globs())
+  var list = array(files || globs())
 
   list.forEach(function (file) {
     apply(require(path.resolve(file)), [test].concat(params))

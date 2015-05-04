@@ -11,7 +11,8 @@
     "globby": "^2.0.0",
     "package.root": "^0.2.0",
     "tape": "latest",
-    "tape-catch": "latest"
+    "tape-catch": "latest",
+    "to-array.js": "^0.10.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.13",
