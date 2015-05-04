@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.3.0 - 2015-05-04
+### Added
+- Added links to tape and tape-catch.
+
+### Changed
+- Changed `npm install` to use `--save-dev`.
+
 ## 0.2.1 - 2015-05-04
 ### Added
 - Wrap `path.basename` with a `basename` function that accepts just a file name so `ext` doesn't get passed via `Array.prototype.map`.

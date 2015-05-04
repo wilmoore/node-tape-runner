@@ -21,7 +21,13 @@
     "tap-spec": "^2.2.2"
   },
   "homepage": "https://github.com/wilmoore/node-tape-runner",
-  "keywords": [],
+  "keywords": [
+    "tape",
+    "tape-catch",
+    "runner",
+    "glob",
+    "test-runner"
+  ],
   "license": "MIT",
   "main": "index.js",
   "preferGlobal": false,
