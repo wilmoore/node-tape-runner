@@ -1,0 +1,9 @@
+app
+lib
+test
+test.js
+src
+makefile
+contributing.md
+.editorconfig
+.travis.yml
