@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.2.1 - 2015-05-04
+### Added
+- Filter out invalid files.
+
 ## 0.2.0 - 2015-05-04
 ### Added
 - Added a call to `to-array.js` in case `files` is passed but not an array.

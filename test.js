@@ -27,7 +27,7 @@ var fixtures = [
  * autorun files.
  */
 
-var autorunFiles = autorun().map(path.basename)
+var autorunFiles = autorun().filter(string).map(path.basename)
 
 /*!
  * tests.
@@ -50,4 +50,15 @@ test('autorun() locates test files in default locations', function (t) {
 
 function exists (file) {
   return !!~autorunFiles.indexOf(file)
+}
+
+/*!
+ * Whether value is a string.
+ *
+ * @param {String} str
+ * @return {Boolean}
+ */
+
+function string (str) {
+  return String(str) === str
 }
